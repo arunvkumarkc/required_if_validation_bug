@@ -24,7 +24,7 @@ class TestController extends Controller {
 
         return [
 
-            'name' => 'required_if:check_required,"1"|min:3',
+            'name' => 'required_if:check_required,1|min:3',
 
         ];
 
